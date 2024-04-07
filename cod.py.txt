@@ -165,3 +165,20 @@ void loop()
       digitalWrite(G1, false);
       delay(1000);
 
+изменения
+ case 222: //Горят красный и жёлтый в первом светофоре, во втором мигает зеленый, после загорается зеленый на первом светофоре
+      digitalWrite(R, true); 
+      digitalWrite(Y, true); 
+      digitalWrite(G1, false);
+      delay(1000); 
+      digitalWrite(G1, true);
+      delay(1000);  
+      digitalWrite(G1, false);
+      delay(1000);
+      digitalWrite(R, false); 
+      digitalWrite(Y, false); 
+      digitalWrite(G, true);
+      digitalWrite(G1, true);
+      delay(1000);
+      digitalWrite(G1, false);
+      delay(1000);
